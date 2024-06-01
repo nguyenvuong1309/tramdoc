@@ -14,14 +14,14 @@ const data = [
 ];
 export const Header = () => {
   return (
-    <div className="w-full px-[285px] py-[38px] mb-[20px] shadow-lg">
-      <div className="h-[90px] w-[260px] pl-[16px] mb-[20px]">
+    <div className="w-full px-[239px] pt-[30px] pb-[10px] shadow-lg">
+      <div className="h-[61px] w-[197px] mb-[25px]">
         <img src={logo} />
       </div>
       <div>
         {data.map((item, index) => (
           <div
-            className="inline font-arial text-xl leading-5 text-left uppercase px-3 mt-20"
+            className="inline font-arial text-[14px] leading-5 text-left uppercase px-3 font-[500]"
             key={index}
           >
             {item?.name || item?.icon}
